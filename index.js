@@ -2,12 +2,11 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".box.blue", {
 	scrollTrigger: {
-  	trigger: ".box.black",
-    start: "top 50px",
-    endTrigger: ".box.red",
-    end: "bottom 80%",
+  	trigger: ".box.blue",
+    start: "top center",
+    end: "top 100px",
     markers: true,
-    toggleActions: "restart pause reverse pause"
+    scrub: true,
   },
   x: 400,
   rotation: 360,
