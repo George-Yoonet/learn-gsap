@@ -6,7 +6,7 @@ gsap.to(".box.blue", {
     start: "top center",
     end: "top 100px",
     markers: true,
-    scrub: true,
+    toggleActions: "restart pause reverse pause"
   },
   x: 400,
   rotation: 360,
